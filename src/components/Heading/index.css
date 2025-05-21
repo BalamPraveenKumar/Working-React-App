@@ -1,0 +1,83 @@
+.heading {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  background: #001f3f;
+  border-radius: 6px;
+  color: #e0f7fa;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  font-size: 13px;
+  user-select: none;
+  overflow: hidden;
+}
+
+input[type='checkbox'] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.headings {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+  color: #a0f8ff;
+  height: 100%;
+}
+
+.asset {
+  flex: 1.6;
+  min-width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #85c1ff;
+}
+
+.headings .holdings {
+  flex: 0 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 11px;
+  line-height: 1.1;
+  background: inherit;   
+  color: inherit;   
+  border: none; 
+  outline: none;
+  box-shadow: none;
+}
+
+.holdings-text {
+  font-size: 12px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.sub-text {
+  font-size: 10px;
+  opacity: 0.65;
+  margin: 0;
+}
+
+.current-price,
+.short-term,
+.long-term,
+.amount-to-sell {
+  flex: 1;
+  min-width: 70px;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 500;
+  color: #90caf9;
+}
+
+.sorting {
+  font-weight: 500;
+}
